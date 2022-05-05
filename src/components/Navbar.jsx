@@ -28,23 +28,23 @@ export default function Navbar() {
         <ul className="links">
           <li>
             <a href="#home" className="active">
-              Home
+            Accueil
             </a>
           </li>
           <li>
-            <a href="#services">Our Services</a>
+            <a href="#services">Nos services</a>
           </li>
           <li>
-            <a href="#portfolio">Portfolio</a>
+            <a href="#portfolio">Portefeuille</a>
           </li>
           <li>
-            <a href="#testimonials">Testimonials</a>
+            <a href="#testimonials">Témoignages</a>
           </li>
           <li>
-            <a href="#products">Products</a>
+            <a href="#products">Produits</a>
           </li>
           <li>
-            <a href="#newsletter">Newsletter</a>
+            <a href="#newsletter">Bulletin</a>
           </li>
         </ul>
       </Nav>

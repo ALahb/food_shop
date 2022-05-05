@@ -1,7 +1,6 @@
-import React from "react";
-import styled from "styled-components";
-import hero from "../assets/hero.jpg";
-import heroDesign from "../assets/HeroDesign.png";
+import React from 'react';
+import styled from 'styled-components';
+import hero from '../assets/hero.jpg';
 export default function Hero() {
   return (
     <Section id="home">
@@ -9,20 +8,21 @@ export default function Hero() {
         <img src={hero} alt="Background Image" />
       </div>
       <div className="content">
-        <div className="sale">
-          <img src={heroDesign} alt="" />
-          <h1>
-            BIG SALE
-            <span>50% OFF</span>
-          </h1>
-        </div>
         <div className="info">
-          <h2>RETAILER</h2>
+          <h2>Le Comptoir</h2>
           <em>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam
-            aspernatur itaque, eius quia voluptas numquam!
+            venez découvrir le comptoir avec son nouveau gérant et chef de
+            cuisine mr jaziri mohamed qui vien de reprendre ce magnifique
+            endroit en famille avec son adorable épouse une convivialité cette
+            endroit chaleureux sa carte pleine de saveurs mr jaziri était un
+            grand chef dans plusieurs établissements il a récemment acquéri ce
+            magnifique restaurant il ya un mois environ où ils nous fais
+            découvrir sa belle carte qui nous donne envie c est bubble thé...et
+            les week-end vous trouverai également son couscous royale ou encore
+            son chakchouka et pliens d autre plat savoureux tous si vous n êtes
+            toujours pas venu testée ce restaurant venez vite le chef vous
+            attent avec c'est produit 100%frais et fait maison.
           </em>
-          <button>ORDER NOW</button>
         </div>
       </div>
     </Section>
@@ -85,7 +85,7 @@ const Section = styled.section`
         color: white;
         width: 60%;
         text-align: end;
-        font-size: 1.1rem;
+        font-size: 1.5rem;
         line-height: 2rem;
         letter-spacing: 0.1rem;
       }
